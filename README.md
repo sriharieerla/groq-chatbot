@@ -1,6 +1,17 @@
-# GROQ Chatbot 🤖
+# GROQ Voice-Enabled AI Assistant 🤖🎤
 
-A self-made AI chatbot built using the **GROQ API**, developed leveraging knowledge gained during my **Data Valley internship (completed in April 2025)**. This chatbot understands natural language queries and provides intelligent responses.
+Excited to share an upgrade to my recent project!
+
+Earlier, I built an AI Chatbot powered by **Groq AI**. Now, I’ve enhanced it into a **Voice-Enabled AI Assistant** that feels more interactive and human-like — perfect for practicing mock interviews or everyday AI interactions.
+
+## ✨ Key Highlights
+
+- **Voice Input:** Integrated **Speech-to-Text (STT)** to understand your voice queries.
+- **Voice Output:** Added **Text-to-Speech (TTS)** for natural, human-like AI responses.
+- **Powered by Groq API:** Lightning-fast inference for real-time interaction.
+- **Interactive & Practical:** Now works as a personal voice assistant for learning, practice, and more.
+
+This upgrade makes the chatbot smarter, faster, and more engaging. Always exploring ways to push the boundaries of AI projects and make them more impactful! 🌟
 
 ## Features
 
@@ -8,6 +19,7 @@ A self-made AI chatbot built using the **GROQ API**, developed leveraging knowle
 - Understands and responds to natural language queries
 - Lightweight, fast, and easy to integrate
 - Secure handling of API keys
+- Voice-enabled interaction with STT and TTS
 - Self-made project showcasing AI and practical development skills
 
 ## Installation
@@ -16,16 +28,19 @@ A self-made AI chatbot built using the **GROQ API**, developed leveraging knowle
    ```bash
    git clone https://github.com/sriharieerla/groq-chatbot
    ```
-2. Navigate to the project directory: cd groq-chatbot
-3. Install dependencies: pip install -r requirements.txt
+2. Navigate to the project directory:
+   ```bash
+   cd groq-chatbot
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 4. Set up your GROQ API key securely:
-   Create a .env file in the root directory: GROQ_API_KEY=your_api_key_here
+   Create a .env file in the root directory:
+   GROQ_API_KEY=your_api_key_here
 
-Add .env to .gitignore to keep it private.
-Load it in your code using python-dotenv:
-from dotenv import load_dotenv
-import os
-load_dotenv()
-api_key = os.getenv("GROQ_API_KEY")
-
-Run the chatbot: python chatbot.py
+5. Run the voice-enabled assistant:
+   ```bash
+   python chatbot.py
+   ```
